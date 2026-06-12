@@ -5,6 +5,18 @@ Formato de cada entrada: `## [YYYY-MM-DD] tipo | descripción`
 
 ---
 
+## [2026-06-12] ingest | Drones — PX4/ROS2 (7 páginas)
+
+- Fuentes: `raw/pipeline-desarrollo-drones.md`, `raw/sitl-quick-start.md`
+- Carpeta `wiki/drones/` creada.
+- Páginas wiki creadas: `Pipeline de Desarrollo de Drones` (fuente, 7 fases del pipeline), `SITL Quick Start` (fuente, referencia 4 terminales), `PX4` (entidad), `Gazebo` (entidad), `RViz2` (entidad), `SITL y HITL` (concepto), `Comunicación ROS2-PX4` (concepto, DDS/uORB/MAVLink).
+- `wiki/ros2/ROS2.md` desarrollado (estaba vacío): conceptos básicos de ROS2 y enlaces.
+- `wiki/ros2/Ejecutar un Nodo ROS2.md`: añadida sección Conexiones enlazando al pipeline de drones.
+- Todas las páginas nuevas interconectadas con wiki-links.
+- `index.md` actualizado: nueva sección "Drones (PX4)" y sección ROS2 ampliada.
+
+---
+
 ## [2026-05-29] ingest | Docker (2 páginas)
 
 - Fuentes: `raw/Docker.md`, `raw/Docker - Imágenes y Contenedores .md`

@@ -276,3 +276,9 @@ ros2 run nombre_paquete nombre_comando
 | `No executable found`   | El setup.py no tiene la entrada correcta | Revisa que `entry_points` sea correcto                |
 | `ModuleNotFoundError`   | El archivo está en la carpeta equivocada | Verifica que está en `nombre_paquete/nombre_paquete/` |
 | El nodo no muestra nada | No estás escuchando el tema              | Abre otra terminal y usa `ros2 topic echo /tema`      |
+
+---
+
+## Conexiones
+- [[ROS2]] — referencia general del framework
+- [[Pipeline de Desarrollo de Drones]] — los nodos de la Fase 2 (offboard_control, mission_planner, etc.) se crean siguiendo este mismo proceso

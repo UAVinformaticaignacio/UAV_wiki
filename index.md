@@ -10,6 +10,7 @@ Página principal. Mantenida por el LLM — no editar manualmente.
 - [[Git y GitHub]]
 - [[ROS2]]
 - [[Docker]]
+- [[Pipeline de Desarrollo de Drones|Drones (PX4)]]
 
 ---
 
@@ -56,8 +57,23 @@ Robótica con ROS2 y Python (rclpy).
 
 | Página | Resumen |
 |---|---|
-| [[ROS2]] | Referencia general (en desarrollo) |
+| [[ROS2]] | Referencia general: nodos, topics, rclpy |
 | [[Ejecutar un Nodo ROS2]] | Crear paquete, configurar `setup.py`, `colcon build`, `ros2 run` |
+
+---
+
+### Drones (PX4)
+Desarrollo de drones con ROS2 + PX4 + Gazebo, del software al vuelo real.
+
+| Página | Resumen |
+|---|---|
+| [[Pipeline de Desarrollo de Drones]] | Stack completo y las 7 fases: diseño, software, SITL, HITL, integración, campo, despliegue |
+| [[SITL Quick Start]] | Referencia rápida de 4 terminales para levantar SITL |
+| [[PX4]] | Piloto automático: EKF2, failsafes, control de motores |
+| [[Gazebo]] | Simulador usado en SITL/HITL |
+| [[RViz2]] | Visualización de datos ROS2 |
+| [[SITL y HITL]] | Diferencias entre ambas etapas de prueba |
+| [[Comunicación ROS2-PX4]] | Protocolos DDS, uORB, MAVLink y Micro XRCE-DDS Agent |
 
 ---
 
